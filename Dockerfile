@@ -5,8 +5,8 @@ FROM ubuntu:14.04
 MAINTAINER Satyam Sinha <satyam@gmail.com>
 
 # Add local directory 
-ADD workspace/benchmark/code aporeto-benchmark/
-ADD workspace/benchmark/files aporeto-benchmark/files 
+ADD code aporeto-benchmark/
+ADD files aporeto-benchmark/files 
 
 # Install pip's dependency: setuptools:
 RUN apt-get install -y python
