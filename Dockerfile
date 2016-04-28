@@ -11,5 +11,3 @@ ADD files aporeto-benchmark/files
 # Install pip's dependency: setuptools:
 RUN apt-get install -y python
 
-
-
